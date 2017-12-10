@@ -97,7 +97,7 @@ int solveWithOpt()//O(NK) linear approach
 	}
 	return dpOpt[F][E];
 }
-int solveWithBinarySearch()
+int solveWithBinarySearch()//O(nklogn)
 {
 	for (int f = 1; f <= F; f++)
 	{
